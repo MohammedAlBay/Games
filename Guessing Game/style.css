@@ -17,3 +17,9 @@ div{
   margin-top: 25%;
   border: 3px solid black;
 }
+input#Guess{
+  height: 35px;
+  width: 70px;
+  font-size: large;
+  text-align: center;
+}
