@@ -8,21 +8,23 @@
   <script defer src="./Guessing Game/script.js"></script>
 </head>
 <body>
-  <header role="banner">
-    <h1 id="game-title">Guess the number!</h1>
-    <p id="game-description">I am thinking of a number between 1 and 26. Can you guess what it is?</p>
-  </header>
-  <main role="main">
-    <form>
-      <label>
-        Your Guess:
-        <input type="number" id="Guess" name="Myguess" min="1" max="26">
-      </label>
-      <br>
-      <input type="submit" id="submitGuess" value="Check Your Guess">
-    </form>
-    <p id="hints"></p>
-    <p id="attempts"></p>
-  </main>
+  <div>
+    <header role="banner">
+      <h1 id="game-title">Guess the number!</h1>
+      <p id="game-description">I am thinking of a number between 1 and 26. Can you guess what it is?</p>
+    </header>
+    <main role="main">
+      <form>
+        <label>
+          Your Guess:
+          <input type="number" id="Guess" name="Myguess" min="1" max="26">
+        </label>
+        <br>
+        <input type="submit" id="submitGuess" value="Check Your Guess">
+      </form>
+      <p id="hints"></p>
+      <p id="attempts"></p>
+    </main>
+  </div>
 </body>
 </html>
