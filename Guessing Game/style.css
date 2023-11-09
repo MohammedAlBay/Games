@@ -38,3 +38,8 @@ input::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+#submitGuess:hover{
+  cursor: pointer;
+  background-color: grey;
+}
