@@ -1,8 +1,10 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:brown;
 }
 
 div{
+  width: 650px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -10,20 +12,33 @@ div{
   gap: 20px;
   margin-top: 80px;
   font-size: 22px;
+  background-color: blanchedalmond;
+  color: brown;
 }
 
-input#Guess{
+#game-description{
+  font-weight: 600;
+  font-size: 28px;
+}
+
+#hints{
+  font-weight: 500;
+  font-size: 24px;
+}
+
+#Guess{
   height: 35px;
   width: 70px;
   font-size: large;
   text-align: center;
+  color: brown;
 }
 
-input#submitGuess{
+#submitGuess{
   padding: 20px 20px;
-  background-color: black;
+  background-color: brown;
   font-size: 18px;
-  color: white;
+  color: blanchedalmond;
   border: none;
   border-radius: 8px;
 }
@@ -36,5 +51,6 @@ input::-webkit-outer-spin-button {
 
 #submitGuess:hover{
   cursor: pointer;
-  background-color: grey;
+  background-color: rgb(139, 26, 26);
+  color: blanchedalmond;
 }
