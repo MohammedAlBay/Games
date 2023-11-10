@@ -5,6 +5,7 @@ let randomNumber = Math.floor(Math.random()*(maxNum - minNum)+1)+ minNum;
 console.log(randomNumber);
 
 let attempts = 0;
+const inputLabel= document.getElementById("label");
 const guessInput = document.getElementById("Guess");
 console.log(guessInput);
 const startVersion = document.getElementById("game-box");
@@ -27,6 +28,8 @@ function checkGuess() {
     hintsOutput.classList.remove("error");
     hintsOutput.classList.add("success");
     submitButton.style.display = "none";
+    guessInput.style.display = "none";
+    inputLabel.style.display = "none";
     restartButton.style.display = "block";
   } else if ((guessValue+1) === randomNumber || (guessValue-1) === randomNumber){
     hintsOutput.textContent = `So close, but you just missed it! Are you in a class that started on the thirteenth or what?"`;
@@ -49,7 +52,9 @@ function initGame(){
   guessInput.value = "";
   hintsOutput.classList.remove("success", "error");
   restartButton.style.display = "none";
-  submitButton.style.display = "block";
+  submitButton.style.display = "initial";
+  inputLabel.style.display = "initial";
+  guessInput.style.display = "initial";
 }
 
 // TODO: Create (1)Event Listener for a 'click' on submit button
