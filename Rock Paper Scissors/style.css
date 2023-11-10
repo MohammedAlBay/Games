@@ -65,3 +65,9 @@ header h1 {
   font-family: Asap, sans-serif;
   font-weight: bold;
 }
+
+.choices{
+  margin: 50px 0;
+  text-align: center;
+  justify-content: center;
+}
