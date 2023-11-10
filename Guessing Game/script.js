@@ -35,4 +35,6 @@ function checkGuess() {
     hintsOutput.textContent = `Bummer...You guessed ${guessValue} and the secret number was ${randomNumber}.`
     hintsOutput.classList.add("error");
   }
+  // Add attempts to attemptsOutput
+  attemptsOutput.textContent = `Number of attempts: ${attempts}`
 }
