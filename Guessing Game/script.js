@@ -57,7 +57,7 @@ submitButton.addEventListener("click", checkGuess);
   
 // TODO: Create (2)Event Listener for pressing 'enter' on submit button
 guessInput.addEventListener("keypress",(e)=>{
-if (e.key === "enter"){
+if (e.key === "Enter"){
   // Cancel default action
   e.preventDefault();
   // Run checkGuess function
