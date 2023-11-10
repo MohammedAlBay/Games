@@ -42,3 +42,15 @@ header h1 {
   font-size: Asap, sans-serif;
   text-align: center;
 }
+
+#player-label{
+  position: absolute;
+  left: -25px;
+  top: 30px;
+}
+
+#AI-label{
+  position: absolute;
+  right: -25px;
+  top: 30px;
+}
