@@ -6,19 +6,27 @@
   box-sizing: border-box;
 }
 
-body {
+body{
   background-color: #292C34;
 }
 
-header {
+header{
   background-color: #fff;
   padding: 20px;
 }
 
-header h1 {
+header h1{
   text-align: center;
-  color: #25272E;
+  color: #292C34;
   font-family: Asap, sans-serif;
+}
+
+header h2{
+  padding: 20px;
+  text-align: center;
+  color: #292C34;
+  font-family: Asap, sans-serif;
+  font-size: 28px;
 }
 
 .score-board{
