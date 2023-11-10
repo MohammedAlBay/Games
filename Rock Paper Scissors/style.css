@@ -54,3 +54,14 @@ header h1 {
   right: -25px;
   top: 30px;
 }
+
+.result{
+  color: #fff;
+  font-size: 40px;
+}
+
+.result p{
+  text-align: center;
+  font-family: Asap, sans-serif;
+  font-weight: bold;
+}
