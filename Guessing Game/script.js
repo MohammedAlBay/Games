@@ -12,3 +12,10 @@ const submitButton = document.getElementById("submitGuess");
 const restartButton = document.getElementById("restart");
 const hintsOutput = document.getElementById("hints");
 const attemptsOutput = document.getElementById("attempts");
+
+// TODO: Create function to check guessInput
+function checkGuess() {
+  const guessValue = Number(guessInput.value);
+  attempts++;
+  console.log(attempts);
+}
