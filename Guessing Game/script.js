@@ -32,7 +32,7 @@ function checkGuess() {
     hintsOutput.textContent = `So close, but you just missed it! Are you in a class that started on the thirteenth or what?"`;
     hintsOutput.classList.add("error");
   } else {
-    hintsOutput.textContent = `Bummer...You guessed ${guessValue} and the secret number was ${randomNumber}.`
+    hintsOutput.textContent = `Bummer...You guessed ${guessValue} but that is not the secret number.`
     hintsOutput.classList.add("error");
   }
   // Add attempts to attemptsOutput
