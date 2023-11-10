@@ -50,4 +50,23 @@ function initGame(){
   hintsOutput.classList.remove("success", "error");
   restartButton.style.display = "none";
   submitButton.style.display = "block";
-  }
+}
+
+// TODO: Create (1)Event Listener for a 'click' on submit button
+submitButton.addEventListener("click", checkGuess);
+  
+// TODO: Create (2)Event Listener for pressing 'enter' on submit button
+guessInput.addEventListener("keypress",(e)=>{
+if (e.key === "enter"){
+  // Cancel default action
+  e.preventDefault();
+  // Run checkGuess function
+  checkGuess();
+}
+});
+
+// TODO: Create Event Listener for a 'click' on restart button
+restartButton.addEventListener("click", initGame);
+
+// TODO: Create Event Listener for reloading page/window
+window.addEventListener("load", initGame);
