@@ -18,5 +18,18 @@ header {
 header h1 {
   text-align: center;
   color: #25272E;
-  font-family: 'Asap', sans-serif;
+  font-family: Asap, sans-serif;
+}
+
+.score-board{
+  margin: 20px auto;
+  padding: 15px 20px;
+  border: 3px solid #fff;
+  border-radius: 4px;
+  width: 200px;
+  color: #fff;
+  text-align: center;
+  font-family: Asap, sans-serif;
+  font-size: 46px;
+  position: relative;
 }
