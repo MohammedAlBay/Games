@@ -6,6 +6,15 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #25272E;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+}
+
 header h1 {
   text-align: center;
   color: #25272E;
