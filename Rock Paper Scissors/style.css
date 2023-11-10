@@ -71,3 +71,8 @@ header h1 {
   text-align: center;
   justify-content: center;
 }
+
+.choice{
+  display: inline-block;
+  border: 4px solid #fff;
+}
