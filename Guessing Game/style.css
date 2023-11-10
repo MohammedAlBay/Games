@@ -5,7 +5,7 @@ body {
   background-color:brown;
 }
 
-div{
+#game-box{
   width: 650px;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,8 @@ div{
   color: brown;
 }
 
-#submitGuess{
+#submitGuess,
+#restart{
   padding: 20px 20px;
   background-color: brown;
   font-size: 18px;
@@ -45,13 +46,18 @@ div{
   border-radius: 8px;
 }
 
+#restart{
+  display: none;
+}
+
 input::-webkit-inner-spin-button,
 input::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-#submitGuess:hover{
+#submitGuess:hover,
+#restart:hover{
   cursor: pointer;
   background-color: rgb(139, 26, 26);
   color: blanchedalmond;
