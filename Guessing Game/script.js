@@ -67,6 +67,3 @@ if (e.key === "enter"){
 
 // TODO: Create Event Listener for a 'click' on restart button
 restartButton.addEventListener("click", initGame);
-
-// TODO: Create Event Listener for reloading page/window
-window.addEventListener("load", initGame);
