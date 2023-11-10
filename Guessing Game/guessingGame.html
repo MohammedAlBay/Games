@@ -8,7 +8,7 @@
   <script defer src="../Guessing Game/script.js"></script>
 </head>
 <body>
-  <div>
+  <div id="game-box">
     <h1 id="game-title">Number Guessing Game</h1>
     <p id="game-description">Guess the number between 0 and 27</p>
     <label>
@@ -16,6 +16,7 @@
       <input type="number" id="Guess" name="Myguess" min="1" max="26">
     </label>
     <input type="submit" id="submitGuess" value="Check Your Guess">
+    <button id="restart">Play Again!</button>
     <p id="hints"></p>
     <p id="attempts"></p>
   </div>
