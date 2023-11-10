@@ -20,6 +20,10 @@ body {
   border: 10px solid rgba(206, 7, 7, 0.3);
 }
 
+img{
+  width: 150px;
+}
+
 #game-description{
   font-weight: 600;
   font-size: 28px;
