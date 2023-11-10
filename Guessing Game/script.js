@@ -38,3 +38,16 @@ function checkGuess() {
   // Add attempts to attemptsOutput
   attemptsOutput.textContent = `Number of attempts: ${attempts}`
 }
+// TODO: Create function to restart the game when the guess is correct
+function initGame(){
+  console.log("Game started!");
+  randomNumber = Math.floor(Math.random()*(maxNum - minNum)+1)+ minNum;
+  console.log(randomNumber);
+  attempts = 0;
+  attemptsOutput.textContent = "";
+  hintsOutput.textContent = "";
+  guessInput.value = "";
+  hintsOutput.classList.remove("success", "error");
+  restartButton.style.display = "none";
+  submitButton.style.display = "block";
+  }
