@@ -26,7 +26,7 @@ header h2{
   text-align: center;
   color: #292C34;
   font-family: Asap, sans-serif;
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .score-board{
@@ -88,4 +88,11 @@ header h2{
 img{
   width: 100px;
   height: 100px;
+}
+
+#action-message{
+  color: #fff;
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
 }
