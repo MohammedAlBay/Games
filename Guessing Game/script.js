@@ -65,6 +65,13 @@ if (e.key === "Enter"){
 }
 });
 
+// TODO: Create Event Listener to prevent non-numeric input
+guessInput.addEventListener("keypress", function (e) {
+  if (isNaN(e.key)){
+    e.preventDefault();
+  }
+});
+
 // TODO: Create Event Listener for a 'click' on restart button
 restartButton.addEventListener("click", initGame);
 
